@@ -42,7 +42,12 @@ export const Form = () => {
               without any extra paperwork.
             </Paragraph>
             <div className="mb-4 flex">
-              <button onClick={handleLinkOpen}>Connect now</button>
+              <button
+                className="px-2 py-1 bg-black text-white rounded"
+                onClick={handleLinkOpen}
+              >
+                Connect now
+              </button>
             </div>
           </div>
         )}
